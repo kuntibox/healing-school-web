@@ -376,7 +376,7 @@
     $(".testimonial-one__carousel").owlCarousel({
       loop: true,
       margin: 24,
-      nav: true,
+      nav: false,
       dots: false,
       smartSpeed: 500,
       autoplay: true,
@@ -388,18 +388,6 @@
       responsive: {
         0: {
           items: 1,
-        },
-        768: {
-          items: 2,
-        },
-        992: {
-          items: 2,
-        },
-        1200: {
-          items: 2,
-        },
-        1320: {
-          items: 2,
         },
       },
     });
@@ -538,7 +526,9 @@
 
 
   // custom coursor
-  if ($(".custom-cursor").length) {
+  if (false)
+  //($(".custom-cursor").length) 
+  {
 
     var cursor = document.querySelector('.custom-cursor__cursor');
     var cursorinner = document.querySelector('.custom-cursor__cursor-two');

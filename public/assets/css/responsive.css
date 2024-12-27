@@ -946,10 +946,7 @@
     }
 
     .testimonial-one__carousel.owl-theme .owl-nav {
-        position: absolute;
-        top: inherit;
-        bottom: -81px;
-        transform: translateY(0%) translateX(-50%);
+        display: none !important;
     }
 
     .testimonial-one__carousel.owl-theme .owl-nav::before {
