@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Home One || Chioary || Chioary HTML 5 Template </title>
+    <title>Ecole de la guérison</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Chioary HTML 5 Template " />
+    <meta name="description" content="Ecole de la guérison" />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -141,8 +141,6 @@
                     <div class="main-slider__bg"
                         style="background-image: url(assets/images/backgrounds/slider-1-1.jpg);">
                     </div>
-                    <div class="main-slider__map"
-                        style="background-image: url(assets/images/shapes/main-slider-map.png);"></div>
                     <div class="container">
                         <div class="main-slider__content">
                             <div class="main-slider__sub-title-box">
@@ -276,7 +274,7 @@
                     <!--Testimonial One Single Start-->
                     <div class="item">
                         <div class="testimonial-one__single">
-                            <p class="testimonial-one__text">O Lord God, I come to You in the name of Jesus. I beleive that Jesus Christ is Your Son. I beleive that You raised Him from the dead and I confess with my mouth that Jesus Christ is the Lord of my life from today. I receive by faith, remission of sins for my soul, and right now, in the name of Jesus Christ, I receive enternal life into my spirit. Je déclare de ma bouche que je suis né de nouveau !!!</p>
+                            <p class="testimonial-one__text">Seigneur Dieu, je viens à Toi au nom de Jésus. Je crois que Jésus-Christ est ton Fils. Je crois que Tu l'as ressuscité des morts et je confesse de ma bouche que Jésus-Christ est le Seigneur de ma vie à partir d'aujourd'hui. Je reçois par la foi la rémission des péchés pour mon âme, et dès maintenant, au nom de Jésus-Christ, je reçois la vie éternelle dans mon esprit. Je déclare de ma bouche que je suis né de nouveau !!!</p>
                         </div>
                     </div>
                     <!--Testimonial One Single End-->
@@ -439,13 +437,13 @@
                 <div class="container">
                     <div class="site-footer__top-inner">
                         <div class="row">
-                            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp pr-4" data-wow-delay="100ms">
                                 <div class="footer-widget__about">
                                     <div class="footer-widget__about-logo">
                                         <a href="index.html"><img src="assets/images/resources/footer-logo-1.png"
                                                 alt=""></a>
                                     </div>
-                                    <p class="footer-widget__about-text">L'école de guérison est un ministère de guérison chargé du mandat divin d'apporter la guérison aux nations.</p>
+                                    <p class="footer-widget__about-text pr-4">L'école de guérison est un ministère de guérison chargé du mandat divin d'apporter la guérison aux nations.</p>
                                     <div class="site-footer__social">
                                         <a href="#"><i class="icon-facebook"></i></a>
                                         <a href="#"><i class="icon-twitter"></i></a>
@@ -454,44 +452,31 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                                 <div class="footer-widget__links">
-                                    <h4 class="footer-widget__title">Quick links</h4>
+                                    <h4 class="footer-widget__title">Liens rapides</h4>
                                     <ul class="footer-widget__links-list list-unstyled">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="services.html">Our Services</a></li>
-                                        <li><a href="team.html">Our Team</a></li>
-                                        <li><a href="blog.html">Our Blog</a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
+                                        <li><a href="#l">Video miracles</a></li>
+                                        <li><a href="#">Confessions sur la santé</a></li>
+                                        <li><a href="#">Programmes</a></li>
+                                        <li><a href="#">Blog</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                                 <div class="footer-widget__contact">
-                                    <h3 class="footer-widget__title">Contact Us</h3>
+                                    <h3 class="footer-widget__title">Contactez-nous</h3>
                                     <ul class="footer-widget__contact-list list-unstyled">
                                         <li>
                                             <p>4517 Washington Ave. Manchester,
                                                 Kentucky 39495</p>
                                         </li>
                                         <li>
-                                            <p><a href="tel:2195550114">(219) 555-0114</a></p>
+                                            <p><a href="tel:2195550114">+243 (0) 555-0114</a></p>
                                         </li>
                                         <li>
-                                            <p><a href="mailto:Chioary@gmail.com">Chioary@gmail.com</a></p>
+                                            <p><a href="mailto:healing@gmail.com">healing@gmail.com</a></p>
                                         </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                                <div class="footer-widget__services">
-                                    <h4 class="footer-widget__title">Services</h4>
-                                    <ul class="footer-widget__links-list list-unstyled">
-                                        <li><a href="about.html">Emergency Relief</a></li>
-                                        <li><a href="about.html">Medical Outreach</a></li>
-                                        <li><a href="about.html">Educational Support</a></li>
-                                        <li><a href="about.html">Mental Health</a></li>
-                                        <li><a href="about.html">Community Development</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -505,14 +490,8 @@
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
                                 <div class="site-footer__copyright">
-                                    <p class="site-footer__copyright-text">© 1995-2024 All Rights, Share By <a
-                                            href="https://nullphpscript.com/">HTML Templates</a> exclusive</p>
-                                </div>
-                                <div class="site-footer__bottom-menu-box">
-                                    <ul class="list-unstyled site-footer__bottom-menu">
-                                        <li><a href="about.html">Terms of Service</a></li>
-                                        <li><a href="about.html">Privacy policy</a></li>
-                                    </ul>
+                                    <p class="site-footer__copyright-text">© {{ date('Y') }} All Rights <a
+                                            href="https://kuntibox.com/" class="d-none">kuntibox</a></p>
                                 </div>
                             </div>
                         </div>
@@ -586,7 +565,7 @@
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
-        <span class="scroll-to-top__text"> Go Back Top</span>
+        <span class="scroll-to-top__text"> Retour en haut</span>
     </a>
 
 
