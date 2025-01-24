@@ -6,6 +6,7 @@ use App\Filament\Resources\DocumentResource\Pages;
 use App\Filament\Resources\DocumentResource\RelationManagers;
 use App\Models\Document;
 use Filament\Forms;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
@@ -23,6 +24,10 @@ class DocumentResource extends Resource
     {
         return $form
             ->schema([
+                SpatieMediaLibraryFileUpload::make('video')
+                    ->collection('video')
+                    ->visibility('private')
+                    ->acceptedFileTypes(['video/*']),
                 Forms\Components\TextInput::make('title')
                     ->required()
                     ->maxLength(255),

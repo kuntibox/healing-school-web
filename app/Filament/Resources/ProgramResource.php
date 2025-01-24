@@ -6,6 +6,7 @@ use App\Filament\Resources\ProgramResource\Pages;
 use App\Filament\Resources\ProgramResource\RelationManagers;
 use App\Models\Program;
 use Filament\Forms;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
@@ -23,6 +24,12 @@ class ProgramResource extends Resource
     {
         return $form
             ->schema([
+                SpatieMediaLibraryFileUpload::make('image')
+                    ->collection('banner')
+                    ->image()
+                    ->columnSpanFull()
+                    ->imageEditor()
+                    ->imageCropAspectRatio('3:2'),
                 Forms\Components\TextInput::make('title')
                     ->required()
                     ->maxLength(255),

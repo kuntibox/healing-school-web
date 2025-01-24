@@ -6,6 +6,7 @@ use App\Filament\Resources\BlogResource\Pages;
 use App\Filament\Resources\BlogResource\RelationManagers;
 use App\Models\Blog;
 use Filament\Forms;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
@@ -23,6 +24,12 @@ class BlogResource extends Resource
     {
         return $form
             ->schema([
+                SpatieMediaLibraryFileUpload::make('image')
+                    ->collection('banner')
+                    ->image()
+                    ->columnSpanFull()
+                    ->imageEditor()
+                    ->imageCropAspectRatio('4:3'),
                 Forms\Components\TextInput::make('title')
                     ->required()
                     ->maxLength(255),
