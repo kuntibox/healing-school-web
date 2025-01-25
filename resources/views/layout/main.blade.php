@@ -41,7 +41,6 @@
     <link rel="stylesheet" href="assets/css/module-css/slider.css" />
     <link rel="stylesheet" href="assets/css/module-css/footer.css" />
     
-    <link rel="stylesheet" href="assets/css/module-css/coming-soon.css" />
     <link rel="stylesheet" href="assets/css/module-css/services.css" />
     <link rel="stylesheet" href="assets/css/module-css/about.css" />
     <link rel="stylesheet" href="assets/css/module-css/counter.css" />
@@ -53,6 +52,7 @@
     <link rel="stylesheet" href="assets/css/module-css/testimonial.css" />
     <link rel="stylesheet" href="assets/css/module-css/faq.css" />
     <link rel="stylesheet" href="assets/css/module-css/blog.css" />
+    <link rel="stylesheet" href="assets/css/module-css/page-header.css" />
     <link rel="stylesheet" href="assets/css/module-css/newsletter.css" />
 
     <!-- template styles -->
@@ -69,8 +69,6 @@
         <div class="preloader__image"></div>
     </div>
     <!-- /.preloader -->
-
-
 
 
     <div class="page-wrapper">
@@ -106,7 +104,7 @@
                                             <a href="/">Programmes</a>
                                         </li>
                                         <li class="">
-                                            <a href="/">Blog</a>
+                                            <a href="/blog">Blog</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -162,7 +160,7 @@
                                         <li><a href="#l">Video miracles</a></li>
                                         <li><a href="#">Confessions sur la santé</a></li>
                                         <li><a href="#">Programmes</a></li>
-                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="/blog">Blog</a></li>
                                     </ul>
                                 </div>
                             </div>
